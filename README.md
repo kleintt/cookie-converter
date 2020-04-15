@@ -8,4 +8,4 @@ convert cookie format between different bots
     - name of cookie file
     - name of Phantom bot supported website(like Finishline, YeezySupply)
       name must be exactily same
-    - name of Project Destroyer supported website(find in cookie file)
+    - name of Project Destroyer supported website(could be found in cookie file)

@@ -7,9 +7,10 @@ Created on Fri Apr 10 14:33:25 2020
 
 import json
 
-name = str(input('请输入文件名,例如xxxx.json: \n'))
-site = str(input('请输入PH网站名,例如AdidasGB: \n'))
-site_pd = str(input('请输入PD网站名,例如adidas-gb(在json文件里可以看到): \n'))
+name = str(input('Please give the name of cookie file,like xxxx.json: \n'))
+site = str(input('Please give the name of PH\'s website,like AdidasGB: \n'))
+site_pd = str(
+    input('Please give the name of PD\'s website,like adidas-gb(can be found in cookie file): \n'))
 try:
     with open(name, 'r') as f:
         pd_cookie = json.load(f)
